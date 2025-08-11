@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../../../../core/constants/colors.dart';
 
 class CustomIconButton extends StatelessWidget {
-  CustomIconButton({
+  const CustomIconButton({
     super.key,
     required this.icon,
     this.color = AppColors.buttonsBackground,

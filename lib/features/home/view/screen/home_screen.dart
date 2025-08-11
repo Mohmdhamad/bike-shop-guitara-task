@@ -1,4 +1,3 @@
-import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:tasks/core/constants/app_images.dart';
 import 'package:tasks/features/home/view/widgets/bottom_nav_bar.dart';
@@ -12,7 +11,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: appBarHome(),
-      bottomNavigationBar: botNavBar(),
+      bottomNavigationBar: CustomBottomNavBar(),
       body: Stack(
         alignment: Alignment.bottomRight,
         children: [

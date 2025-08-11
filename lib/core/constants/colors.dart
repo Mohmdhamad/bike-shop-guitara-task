@@ -1,4 +1,3 @@
-import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
@@ -6,7 +5,7 @@ class AppColors {
   static const Color black = Colors.black;
   static const Color pressedButtonsColor = Color(0xFF4A90E2);
   static const Color backgroundColor = Color(0xFF242C3B);
-  static const Color buttonsBackground = Color.fromRGBO(99, 103, 112, 0.17);
+  static const Color buttonsBackground = Color.fromRGBO(99, 103, 112, 0.67);
   static const Color white = Colors.white;
   static const Color green = Colors.green;
   static const Color blue = Colors.blue;

@@ -36,7 +36,7 @@ class CategoriesWidget extends StatelessWidget {
           Transform.translate(
             offset: const Offset(0,-20),
             child: CustomIconButton(icon: SvgPicture.asset(
-              AppImages.roadIcon,
+              AppImages.mapIcon,
               width: 25,
               height: 25,
             ),
@@ -46,7 +46,7 @@ class CategoriesWidget extends StatelessWidget {
           Transform.translate(
             offset: const Offset(0,-30),
             child: CustomIconButton(icon: SvgPicture.asset(
-              AppImages.unionIcon,
+              AppImages.bikeIcon,
               width: 25,
               height: 25,
             ),

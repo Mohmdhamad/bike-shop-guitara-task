@@ -15,6 +15,7 @@ class AppImages {
   static const String helmet = 'assets/images/helmet.png';
   static const String itemBackgroundPng = 'assets/images/item_background.png';
   static const String itemBackgroundSvg = 'assets/images/product_background.svg';
-  static const String bottomNavBg = 'assets/images/bottomnav_bg.png';
+  static const String botNavButtonBg = 'assets/images/bottomnav_bg.png';
+  static const String bottomNavBackg = 'assets/images/botnavbackg.png';
   static const String backgroundRec = 'assets/images/background_rectangle.png';
 }
